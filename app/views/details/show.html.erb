@@ -1,0 +1,8 @@
+all the information is
+<% if !@details.blank? %>
+  <% for item in @details %>
+    <%= item.firstname %>
+    <%= item.lastname %>
+  <% end %>
+<% else  %>
+<% end %>
